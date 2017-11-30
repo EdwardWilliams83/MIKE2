@@ -15,7 +15,7 @@ public class ForwardOnLine implements Behavior {
 	@Override
 	public boolean takeControl() {
 		// TODO Auto-generated method stub
-		LCD.drawInt(LineFollower.ls.readValue(),0,0);
+	//	LCD.drawInt(LineFollower.ls.readValue(),0,0);
 		return (LineFollower.cs.getColorID() == Color.BLACK) && LineFollower.hasBall == true;
 	}
 
